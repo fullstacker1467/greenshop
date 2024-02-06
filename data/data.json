@@ -1,0 +1,38 @@
+{
+  "nav_links": [
+    {
+      "title": "Home",
+      "to": "/"
+    },
+    {
+      "title": "Shop",
+      "to": "/shop"
+    },
+    {
+      "title": "Contact",
+      "to": "/contact"
+    },
+    {
+      "title": "About",
+      "to": "/about"
+    }
+  ],
+  "s_2": [
+    {
+      "title": "Next day as standard",
+      "body": "Order before 3pm and get your order the next day as standard"
+    },
+    {
+      "title": "Made by true artisans",
+      "body": "Handmade crafted goods made with real passion and craftmanship"
+    },
+    {
+      "title": "Unbeatable prices",
+      "body": "For our materials and quality you won’t find better prices anywhere"
+    },
+    {
+      "title": "Recycled packaging",
+      "body": "We use 100% recycled to ensure our footprint is more manageable"
+    }
+  ]
+}

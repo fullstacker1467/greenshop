@@ -1,0 +1,49 @@
+.nav_close,
+.nav_open {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  nav ul.active {
+    left: -100%;
+    opacity: 0;
+  }
+  nav ul {
+    transition: all linear 0.3s;
+    width: 100%;
+    opacity: 1;
+    height: 100vh;
+    background: rgba(1, 64, 91, 0.7);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 31231;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .nav_close,
+  .nav_open {
+    display: block;
+  }
+}
+
+#menu {
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  left: 100%;
+  color: white;
+  height: 60px;
+  background: rgba(1, 64, 91, 0.7);
+  transition: all linear 0.3s;
+}
+
+#menu.active {
+  left: 0;
+}
